@@ -9,15 +9,16 @@ int main()
     }
     for(i=0;i<n;i++)
     {
-        if(arr[i]%2!=0&&i%2==0)
+        if(arr[i]%2!=0 && i%2==0)
         {
-            c=1;
-            printf("False");
-            break;
+                c=1;
+                printf("False");
+                break;
         }
     }
     if(c==0)
     {
         printf("True");
     }
+        return 0;
 }
