@@ -15,7 +15,7 @@ int main()
     }
     for(i=1;i<x*b;i++)
     {
-        p=x*i;
+        p = x*i;
         if(p%y==0)
         {
             printf("%d",p);
